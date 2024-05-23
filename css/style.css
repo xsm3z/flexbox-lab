@@ -57,8 +57,11 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 40px
+    
   }
   
   nav button {
@@ -79,6 +82,8 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
@@ -105,4 +110,16 @@
     border-radius: 50px;
     padding: 6px 15px;
   }
-  
+
+  #destinations,
+  #actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #trending {
+    display: flex;
+    align-items: center;
+    gap: 10px
+  }
